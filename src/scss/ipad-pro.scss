@@ -1,0 +1,18 @@
+/************/
+/* iPad Pro */
+/************/
+
+/* Portrait */
+$ipad-pro-portrait: "only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait)";
+/* Landscape */
+$ipad-pro-landscape: "only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape)";
+/* Split Portrait */
+$ipad-pro-split-portrait: "only screen and (min-device-width: 639px) and (max-device-width: 1366px) and (orientation: portrait)";
+/* Split Landscape */
+$ipad-pro-split-landscape: "only screen and (min-device-width: 678px) and (max-device-width: 1366px) and (orientation: landscape)";
+/* Shelf Portrait */
+$ipad-pro-shelf-portrait: "only screen and (min-device-width: 375px) and (max-device-width: 375px) and (orientation: portrait)";
+/* Shelf Landscape */
+$ipad-pro-shelf-landscape: "only screen and (min-device-width: 375px) and (max-device-width: 375px) and (orientation: landscape)";
+/* Shelf Landscape Main */
+$ipad-pro-shelf-landscapeMain: "only screen and (min-device-width: 639px) and (max-device-width: 639px) and (orientation: landscape)";

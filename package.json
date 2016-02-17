@@ -1,0 +1,41 @@
+{
+  "name": "devices-media-query",
+  "version": "0.0.1",
+  "description": "Media Queries for Standard Devices",
+  "main": "lib/js/index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build:js": "babel src/js --out-dir lib/js",
+    "build:scss": "mkdir -p lib/scss && cp src/scss/* lib/scss",
+    "build": "npm run clean && npm run build:js && npm run build:scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alrighty/devices-media-query.git"
+  },
+  "keywords": [
+    "media",
+    "query",
+    "queries",
+    "css",
+    "scss",
+    "sass",
+    "less",
+    "device",
+    "devices",
+    "ios",
+    "android",
+    "iphone",
+    "ipad"
+  ],
+  "author": "alrighty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alrighty/devices-media-query/issues"
+  },
+  "homepage": "https://github.com/alrighty/devices-media-query#readme",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.5.2"
+  }
+}
