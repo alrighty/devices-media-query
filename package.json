@@ -7,7 +7,8 @@
     "clean": "rimraf lib",
     "build:js": "babel src/js --out-dir lib/js",
     "build:scss": "mkdir -p lib/scss && cp src/scss/* lib/scss",
-    "build": "npm run clean && npm run build:js && npm run build:scss"
+    "build": "npm run clean && npm run build:js && npm run build:scss",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
   "homepage": "https://github.com/alrighty/devices-media-query#readme",
   "devDependencies": {
     "babel-cli": "^6.5.1",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.5.2"
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.5.2",
+    "rimraf": "^2.5.2"
   }
 }
